@@ -1,0 +1,121 @@
+/*
+Project Name: CV Project
+Description: This is a HTML and CSS project for practice
+Version: 1.0
+Author: Abu Salek
+Contact: 01859650251
+Email: bhairabbari330@gmail.com
+*/
+
+/* Basic Css */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.div-clear{
+  clear: both;
+}
+h1,h2,h3,h4,h5,h6{
+  color: #11999e;
+}
+body{
+  background-color: #eee;
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  background-color: #E4F9F5;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1.25rem;
+}
+
+/* Start Header Section */
+header{
+
+}
+.profile{
+  width: 6.25rem;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  float: left;
+}
+.header-bio{
+  padding: 1.5rem;
+  float: left;
+}
+
+.header-contact{
+  float: right;
+  padding: 1.5rem;
+}
+.header-contact a{
+  text-decoration: none;
+  color: teal;
+  font-weight: bold;
+}
+.header-contact a:hover{
+  text-decoration: underline;
+  color: tomato;
+}
+hr{
+  border: 3px solid rgba(0, 0, 0, 0.288);
+  margin: .5rem 0;
+  border-bottom: none;
+}
+
+
+/*Personal Section*/
+#personal-section{
+
+}
+.content{
+  padding: 10px 0;
+}
+.left-content{
+  width: 30%;
+  float: left;
+}
+.right-content{
+  width: 70%;
+  float: right;
+}
+.common-hr{
+  border: 2px solid rgba(0, 0, 0, 0.288);
+  border-bottom: none;
+  margin: 2rem 0;
+}
+h6{
+  margin: .4rem 0;
+}
+.education-left{
+  width: 45%;
+  float: left;
+  margin-right: 10%;
+}
+.education-right{
+  width: 45%;
+  float: right;
+}
+
+/* Footer */
+footer{
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  margin-top: 1rem;
+}
+.footer-container{
+  padding: 2rem 1rem;
+}
+.footer-container a{
+  color: #fff;
+  text-decoration: none;
+  margin: .2rem .5rem;
+  padding: 5px 10px;
+  display: inline-block;
+}
+.footer-container a:hover{
+  border: 1px solid tomato;
+  color: tomato;
+}
